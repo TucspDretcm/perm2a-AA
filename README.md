@@ -87,6 +87,12 @@ for primo in primos:
   print(primo, end=" ")
   anterior = primo
 ```
+**output:**
+```
+101 103 107 109 113 127 131 137 139 149 151 157 163 167 173 179 181 191 193 ...
+1009 1013 1019 1021 1031 1033 1039 1049 1051 1061 1063 1069 1087 1091 1093 1097 ...
+10007 10009 10037 10039 10061 10067 10069 10079 10091 10093 10099 10103 10111 10133 ...
+```
 
 **2) Implementar un programa que genere de manera aleatoria al menos 10 primos distintos de 16, 32 y 64 bits.**
 * Para este programa usamos la funcion RANDOMGEN_PRIMOS la cual genera un número primo de acuerdo a la cantidad de bits enviada; en el algoritmo lo que hace es generar 10 número para 16, 32 y 64 bits, pero como es random algunos quizas se repetiran por eso usamos un if para ver que si el número generado con x bits no esta en la lista se agregue caso contrario vuelve a generar otro y asi se repite en el bucle hasta que la longitud de la lista sea mayor o igual a 10.
@@ -105,4 +111,10 @@ for bit in bits:
 
 for i in range(len(bits)):
   print(bits[i], " bits: ", primos[i])
+```
+**output:**
+```
+16  bits:  [48239, 53377, 36629, 54907, 47857, 60937, 49477, 42131, 59539, 40483]
+32  bits:  [2941920673, 2405580761, 3377064227, 3119179813, 2854039277, 4142767273, 2987201303, 3797804383, 2964520199, 3416839963]
+64  bits:  [10778339444124201473, 11883140540139839489, 15919878659276861441, 14176899593585381381, 17976130584216948769, 15786282096651119617, 15682133451008487427, 12372117338139400201, 13241468489957486593, 11093420224409233411]
 ```
