@@ -10,7 +10,7 @@
 * Para poder ver y probar el trabajo selecione el archivo "perm2a.ipynb" y luego clickear en "Open in colab" para poder correr el programa.
 
 **El mejor "s":**
-* **El mejor "s" para correr el algoritmo es 3, fue encontrado haciendo 3 tipos de pruebas que se pueden encontran en el "perm2a.ipynb"**, pero en la prueba donde nos dimos cuenta que sufre más fue en:
+* **El mejor "s" para correr el algoritmo es 3, fue encontrado haciendo 3 tipos de pruebas que se pueden encontran en el "perm2a.ipynb"**, pero en la prueba donde nos dimos cuenta que sufre más fue en la de generar el siguiente primo con un valor de "s" bajo y mientas menor sea el "s" generaba primos incorrectos de 1000 primos que debia generar:
 
 ```python
 def GEN_PRIMO_SIGUIENTE(n, s):
